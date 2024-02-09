@@ -1,5 +1,5 @@
 {
-    "name": "orchestra/asset",
+    "name": "avninc/asset",
     "description": "Asset Component for Orchestra Platform",
     "homepage": "http://orchestraplatform.com/docs/latest/components/asset/",
     "keywords": ["orchestra-platform", "orchestral", "laravel", "asset"],
@@ -18,12 +18,12 @@
     },
     "require": {
         "php": "^7.3 || ^8.0",
-        "laravie/html": "^7.1",
+        "laravie/html": "*",
         "orchestra/contracts": "^6.0",
         "orchestra/support-facades": "^6.0"
     },
     "require-dev": {
-        "illuminate/filesystem": "^8.0",
+        "illuminate/filesystem": "*",
         "nunomaduro/larastan": "^1.0.1",
         "orchestra/testbench": "^6.22"
     },
